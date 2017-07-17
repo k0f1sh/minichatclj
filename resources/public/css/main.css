@@ -1,0 +1,32 @@
+.flex-container-box {
+    overflow-y: scroll;
+    height: 500px;
+    padding: 1em;
+    border: 2px solid #aaa;
+}
+
+.flex-containier {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+}
+
+.list-group-item {
+    border: none;
+    padding: 0;
+    word-wrap: break-word;
+}
+
+.message-name {
+    color: #0f2350;
+    font-weight: bold;
+}
+
+.admin-message {
+    color: #aaa;
+}
+
+.userlisthead {
+    padding: .25em 0 .5em .75em;
+    border-bottom: 1px solid #ccc;
+}
